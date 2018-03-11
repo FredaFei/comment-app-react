@@ -1,0 +1,39 @@
+input,
+textarea {
+    padding: 4px 6px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.comment-input {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: left;
+}
+
+.comment-box {
+    margin: 20px auto;
+}
+
+.comment-input .title {
+    flex: 0 0 100px;
+    text-align: left;
+}
+.comment-submit{
+    text-align: right;
+}
+.button{
+    padding: 4px 20px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background: #00a3cf;
+    border-radius: 4px;
+    cursor: pointer;
+}
