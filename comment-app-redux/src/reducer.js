@@ -1,17 +1,17 @@
-import * as action from './actionTypes.js'
+import {INIT_COMMENT, ADD_COMMENT, REMOVE_COMMENT} from './actionTypes.js'
 
 export default (state,action)=>{
     if(!state){
         state = {comments: []}
     }
     switch(action.type){
-        case action.INIT_COMMENT: {
+        case INIT_COMMENT: {
             return { comments: action.comments }
         }
-        case action.ADD_COMMENT: {
+        case ADD_COMMENT: {
             return { comments: [...state.comments, action.comments] }
         }
-        case action.REMOVE_COMMENT: {
+        case REMOVE_COMMENT: {
             return { 
                 comments: [
                 ...state.comments.slice(0,action.index),

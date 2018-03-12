@@ -1,6 +1,6 @@
 import React from 'react';
-import CommentInput from './commentApp/commentInput'
-import CommentList from './commentApp/commentList'
+import CommentInput from './commentInput/index'
+import CommentList from './commentList/index'
 import './index.css';
 
 export default ()=>{

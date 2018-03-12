@@ -8,6 +8,7 @@ export const initComment = (comments)=>{
 }
 
 export const addComment = (comments)=>{
+    console.log(comments)
     return {
         type: action.ADD_COMMENT,
         comments

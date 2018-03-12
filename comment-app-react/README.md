@@ -1,4 +1,4 @@
-comment-app-redux
+comment-app-react
 
 ----
 
@@ -6,5 +6,3 @@ comment-app-redux
 * Available Scripts
   * npm start
   * npm run build
-
-
